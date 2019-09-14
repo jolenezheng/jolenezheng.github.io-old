@@ -1,10 +1,22 @@
-<!-- <link rel="stylesheet" type="text/css" href="./css/style.css"> -->
-<div>
-    <div id="url-input">
-        <input class="cred-input" placeholder="Enter video URL">
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>Fact Checker</title>
+  </head>
+  <body>
+    <div class="title">
+        <h1 class="logo" alt="Fact Checker">Fact Checker</h1>
+        <br/>
+        <form class="form-inline">
+            <div class="form-group">
+                <input type="url" class="form-control input-lg" id="video-input" placeholder="Enter youtube video url">
+            </div>
+            <button type="submit" class="btn btn-default btn-lg" id="video-submit" onclick="return false;">Fact Check!</button>
+        </form>
     </div>
-    <button id="get-video-button" type="button">Fact Check Video</button>
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
-    </iframe>
-</div>
-<script type="text/javascript" src="./script/main.js"></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
-document.getElementById("get-video-button").addEventListener("click", function() {
+document.getElementById("video-submit").addEventListener("click", (function(e) {
+    e.preventDefault();
     console.log("btn clicked");
-    document.getElementById("test").innerHTML = "test works";
-});
+}));
 
 var delay = (function() {
     var timer = 0;

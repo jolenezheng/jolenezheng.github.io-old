@@ -1,3 +1,8 @@
+document.getElementById("get-video-button").addEventListener("click", function() {
+    console.log("btn clicked");
+    document.getElementById("test").innerHTML = "test works";
+});
+
 var delay = (function() {
     var timer = 0;
     return function(callback, ms) {

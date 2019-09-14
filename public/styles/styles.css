@@ -8,3 +8,7 @@
     overflow: scroll;
     width:50%;
 }
+
+body {
+    background-color: aqua;
+}

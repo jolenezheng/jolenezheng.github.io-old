@@ -15,26 +15,31 @@
 </head>
 
 <body>
-    <div class="title">
-        <h1 class="logo" alt="Fact Checker">Fact Check</h1>
-        <br />
-    </div>
-    <div>
-        <form class="form-inline">
-            <div class="form-group">
-                <input type="text" class="form-control input-lg" id="youtubeId" placeholder="Enter youtube video Id">
-                <button type="submit" class="btn btn-default btn-lg" id="youtubeUrl">Check!</button>
+    <div class="main-page container">
+        <div class="title row">
+            <img class="logo col-md-12" alt="Fact Check" src="logo.png"/>
+            <br />
+        </div>
+        <div class="row">
+            <form class="form-input">
+                <div class="col-md-6"><input type="text" class="form-control input-lg" id="youtubeId" placeholder="Enter youtube video Id"></div>
+                <div class="col-md-6"><button type="submit" class="btn btn-default btn-lg" id="youtubeUrl">Check!</button></div>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
                 <h3 id="info"></h3>
                 <iframe id="myIframe" width="426" height="240"></iframe>
                 <script src="script.js"></script>
                 <p id="timeHolder"></p>
             </div>
-        </form>
-    </div>
-    <div class="captions">
-        <div class="scroll" id="captions-container">
-            <p id="captionText">
-            </p>
+        </div>
+        </div>
+        <div class="captions row">
+            <div class="scroll" id="captions-container">
+                <p id="captionText">
+                </p>
+            </div>
         </div>
     </div>
 </body>

@@ -1,4 +1,27 @@
+.main-page{
+    padding: 50px;
+}
 .title{
     text-align: center;
     width: 100%;
+}
+
+#youtubeUrl{
+    margin-bottom: 30px;
+}
+
+.btn{
+    margin-left: 20px;
+}
+
+.wiki-container{
+    width: 426px;
+    height: 100%;
+    border: 1px;
+}
+
+.wiki-container .wiki-article {
+    width: 90%;
+    height: 100px;
+    border: 1px;
 }

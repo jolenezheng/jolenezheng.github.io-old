@@ -14,38 +14,47 @@
 </head>
 
 <body>
-    <div class="title">
-        <h1 class="logo" alt="Fact Checker">Fact Checker</h1>
-        <br />
-        <form class="form-inline">
-            <div class="form-group">
-                <input type="text" class="form-control input-lg" id="youtubeUrl" placeholder="Enter youtube video url">
-                <button type="submit" class="btn btn-default btn-lg" id="youtubeUrl">Fact Check!</button>
-            </div>
-        </form>
-    </div>
-    <div id="info">
-            <h3 id=""></h3>
-            <iframe id="myIframe" width="426" height="240"></iframe>
-    </div>
-    <div class="captions">
-        <div class="scroll" id="captions-container">
-            <p id="captionText">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
-            </p>
+    <div class="main-page">
+        <div class="title">
+            <h1 class="logo" alt="Fact Checker">Fact Checker</h1>
+            <br />
+            <form class="form-inline">
+                <div class="form-group">
+                    <input type="text" class="form-control input-lg" id="youtubeUrl" placeholder="Enter youtube video url">
+                    <button type="submit" class="btn btn-default btn-lg" id="youtubeUrl">Let's Check!</button>
+                </div>
+            </form>
         </div>
-
-        <form class="form-inline">
-            <div class="form-group">
-                <input type="url" class="form-control input-lg" id="addText" placeholder="add text">
+        <div class="container">
+            <div id="row info">
+                <div class="md-6 sm-6 xs-12">
+                    <iframe id="myIframe" width="426" height="240"></iframe>
+                </div>
+                <div class="md-6 sm-6 xs-12 wiki-container">
+                    <ul class="wiki-container">
+                        <li class="wiki-article"></li>
+                    </ul>
+                </div>
             </div>
-            <button type="submit" class="btn btn-default btn-lg" id="addTextButton">Add</button>
-        </form>
+        </div>
+        <div class="captions">
+            <div class="scroll" id="captions-container">
+                <p id="captionText">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </p>
+            </div>
+
+            <form class="form-inline">
+                <div class="form-group">
+                    <input type="text" class="form-control input-lg" id="addText" placeholder="add text">
+                </div>
+                <button type="submit" class="btn btn-default btn-lg" id="addTextButton">Add</button>
+            </form>
+        </div>
     </div>
 </body>
-
 </html>

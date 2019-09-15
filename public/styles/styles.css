@@ -6,9 +6,5 @@
 .scroll {
     height: 100px;
     overflow: scroll;
-    width:50%;
-}
-
-body {
-    background-color: aqua;
+    /* width:50%; */
 }

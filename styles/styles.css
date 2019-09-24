@@ -11,6 +11,7 @@ body {
     position: absolute;
     margin-left: -180px;
     margin-top: -225px;
+<<<<<<< HEAD
     background-color: rgba(255, 255, 255, 0.589);
 }
 
@@ -18,6 +19,9 @@ body {
     position: absolute;
     margin-top: 325px;
     margin-left: 120px;
+=======
+    background-color: rgba(255, 255, 255, 0.719);
+>>>>>>> a7801fb3e9e68ea9a4f1c4260bfa363468d9fae4
 }
 
 .profile-picture {
@@ -92,10 +96,13 @@ body {
 
 img {
     border-radius: 50
+<<<<<<< HEAD
 }
 
 .coming-soon {
     color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 50px;
+=======
+>>>>>>> a7801fb3e9e68ea9a4f1c4260bfa363468d9fae4
 }

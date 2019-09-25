@@ -1,27 +1,39 @@
-body {
-    background: url("../img/background.jpg");
+/* body {
+    background: url("../img/background.jpeg");
     background-size: 100%;
+} */
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    background: url("../img/background.jpeg");
 }
 
-.profile-block {
+.home-block {
     width: 360px;
     height: 450px;
+    margin-left: -180px;
+    margin-top: -225px;
+}
+
+.about-block {
+    width: 760px;
+    height: 450px;
+    margin-left: -380px;
+    margin-top: -225px;
+}
+
+.block {
     top: 50%;
     left: 50%;
     position: absolute;
-    margin-left: -180px;
-    margin-top: -225px;
-<<<<<<< HEAD
-    background-color: rgba(255, 255, 255, 0.589);
+    background-color: rgba(255, 255, 255, 0.719);
 }
 
 .navi-tabs {
     position: absolute;
     margin-top: 325px;
     margin-left: 120px;
-=======
-    background-color: rgba(255, 255, 255, 0.719);
->>>>>>> a7801fb3e9e68ea9a4f1c4260bfa363468d9fae4
 }
 
 .profile-picture {
@@ -96,13 +108,10 @@ body {
 
 img {
     border-radius: 50
-<<<<<<< HEAD
 }
 
 .coming-soon {
     color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 50px;
-=======
->>>>>>> a7801fb3e9e68ea9a4f1c4260bfa363468d9fae4
 }

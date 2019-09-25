@@ -1,12 +1,37 @@
-/* body {
-    background: url("../img/background.jpeg");
-    background-size: 100%;
-} */
+p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+}
 
-#particles-js {
-    background: url("../img/background.jpeg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+a {
+    text-decoration:none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(152, 123, 161);
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+
+.name-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(78, 89, 128);
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: rgb(78, 89, 128);
+    letter-spacing: 5px;
 }
 
 .home-block {
@@ -28,21 +53,27 @@
     top: 50%;
     left: 50%;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.829);
+    background-color: rgba(255, 255, 255, 0.911);
 }
 
 #about-link {
     position: absolute;
-    margin-top: 325px;
-    margin-left: 155px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 145px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: rgb(13, 38, 75);
+    letter-spacing: 5px;
+    font-size: 12px;
 }
 
 .profile-picture {
     background: url(../img/profile.jpg);
     background-size: cover;
     background-position: 50% 50%;
-    margin-left: -75px;
-    margin-top: -170px;
+    margin-left: 102px;
+    margin-top: 50px;
     width:150px;
     height:150px;
     border-radius:50%;
@@ -50,67 +81,35 @@
 }
 
 .main-name {
-    margin-left: -100px;
+    position: relative;
+    text-align: center;
     font-size: 28px;
 }
 
 .about-name {
-    margin-top: -200px;
-    margin-left: -110px;
+    margin-top: -20px;
+    /* margin-left: -70px; */
     font-size: 28px;
 }
 
 .position {
-    margin-left: -98px;
-    margin-top: 50px;
+    /* margin-left: -98px; */
+    margin-top: 30px;
     font-size: 18px;
 }
 
-.title {
-    font-family: "Courier New", Courier, monospace;
-}
-
 .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    text-align: center;
+    /* top: 50%; */
+    /* left: 50%; */
 }
 
 .icons {
-    position: absolute;
-    margin-top: 385px;
-    margin-left: 30px;
-}
-
-#linkedin-icon {
-    margin-left: 60px;
-    width: 30px;
-    height: 30px;
-    overflow: hidden;
-}
-
-#github-icon {
-    margin-left: 15px;
-    margin-top: -50px;
-    width:30px;
-    height:30px;
-    overflow:hidden;
-}
-
-#resume-icon {
-    margin-left: 15px;
-    margin-top: -65px;
-    width: 30px;
-    height: 30px;
-    overflow:hidden;
-}
-
-#email-icon {
-    margin-left: 15px;
-    margin-top: -65px;
-    width: 30px;
-    height: 30px;
-    overflow:hidden;
+    position: relative;
+    /* left: 50%; */
+    margin-top: 80px;
+    margin-left: 27px;
 }
 
 img {
@@ -123,11 +122,43 @@ img {
     font-size: 50px;
 }
 
-p {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 15px;
+#about-text {
+    margin-top: 50px;
 }
 
-#about-text {
-    margin-top: 100px;
+#linkedin-icon {
+    margin-left: 47px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+#github-icon {
+    margin-left: 25px;
+    margin-top: -50px;
+    width:30px;
+    height:30px;
+    overflow:hidden;
+}
+
+#resume-icon {
+    margin-left: 25px;
+    margin-top: -65px;
+    width: 30px;
+    height: 30px;
+    overflow:hidden;
+}
+
+#email-icon {
+    margin-left: 30px;
+    margin-top: -65px;
+    width: 30px;
+    height: 30px;
+    overflow:hidden;
+}
+
+#particles-js {
+    background: url("../img/background.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }

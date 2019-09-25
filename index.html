@@ -4,18 +4,17 @@
     <link rel="stylesheet" href="styles/styles.css" type="text/css">
     <script type="text/javascript" src="particles.js"></script>
     <script type="text/javascript" src="app.js"></script>
+    <!-- <script type="text/javascript" src="script.js"></script> -->
     <title>Jolene Zheng</title>
 </head>
 
 <body id="particles-js">
     <div class="main-page-container">
         <div class="block home-block">
-            <div class="profile-picture center"></div>
-            <div class="main-name title center">Jolene Zheng</div>
-            <div class="position title center">Software Developer</div>
-            <div class="navi-tabs">
-                <a href="about.html" class="title" id="about-link">About</a>
-            </div>
+            <div class="profile-picture center"></div><br>
+            <div class="main-name name-title center">Jolene Zheng</div>
+                <h1>I'm a<br><span class="type"></span></h1>
+            <a href="about.html" class="center" id="about-link">more --></a>
             <div class="icons">
                 <a href="https://www.linkedin.com/in/jolenezheng/" target="_blank">
                     <img src="img/linkedin.png" id="linkedin-icon">
@@ -32,6 +31,24 @@
             </div>
         </div>
     </div>
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: [
+                "Software Developer",
+                "Athelete",
+                "Raptors Fan",
+                "Innovator",
+                "Spotify Enthusiast",
+                "Dog Lover",
+                "Traveller"
+            ],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true,
+            loopCount: Infinity
+        });
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Poppins&display=swap');
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: rgb(78, 89, 128);
+}
+
+a {
+    text-decoration:none;
+    color: rgb(177, 165, 147);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 160px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.intro-container {
+    top: 30%;
+    left: 2%;
+    height: 25%;
+    width: 18%;
+    /* background-color: rgba(0, 0, 0, 0.527); */
+    /* display: inline-block; */
+    /* margin-top: 10%;
+    padding: 5px; */
+}
+
+.block-container{
+    display: inline-block;
+    width: 75%;
+}
+
+.about-container {
+    /* top: 30%;
+    left: 26%; */
+    height: 25%;
+    width: 15%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.527);
+    text-align: center;
+    margin-top: 15%;
+    display: inline-block;
+
+}
+
+.skills-container {
+    /* top: 30%;
+    left: 45%; */
+    height: 25%;
+    width: 15%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.527);
+    text-align: center;
+    display: inline-block;
+}
+
+.projects-container {
+    /* top: 25%;
+    left: 64%; */
+    height: 25%;
+    width: 15%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.527);
+    text-align: center;
+    display: inline-block;
+}
+
+.contact-container {
+    /* top: 25%;
+    left: 82%; */
+    height: 25%;
+    width: 15%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.527);
+    text-align: center;
+    display: inline-block;
+}
+
+.center {
+    left: 50%;
+}
+/* .name-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(78, 89, 128);
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.about-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(78, 89, 128);
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.about-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(78, 89, 128);
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: rgb(78, 89, 128);
+    letter-spacing: 5px;
+}
+
+.home-block {
+    width: 360px;
+    height: 450px;
+    margin-left: -180px;
+    margin-top: -225px;
+}
+
+.about-block {
+    width: 760px;
+    height: 450px;
+    margin-left: -425px;
+    margin-top: -255px;
+    padding: 50px;
+}
+
+.block {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+.right-link {
+    position: relative;
+    text-align: right;
+    margin-left: 548px;
+}
+
+#about-link {
+    position: absolute;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 145px;
+}
+
+.navi-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: rgb(13, 38, 75);
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+
+.profile-picture {
+    background: url(../img/profile.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: 102px;
+    margin-top: 50px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.main-name {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+}
+
+.position {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.center {
+    position: relative;
+    text-align: center;
+}
+
+.icons {
+    position: relative;
+    margin-top: 80px;
+    margin-left: 27px;
+}
+
+img {
+    border-radius: 50
+}
+
+.coming-soon {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+}
+
+#about-text {
+    margin-top: 50px;
+}
+
+#linkedin-icon {
+    margin-left: 47px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+#github-icon {
+    margin-left: 25px;
+    margin-top: -50px;
+    width:30px;
+    height:30px;
+    overflow:hidden;
+}
+
+#resume-icon {
+    margin-left: 25px;
+    margin-top: -65px;
+    width: 30px;
+    height: 30px;
+    overflow:hidden;
+}
+
+#email-icon {
+    margin-left: 30px;
+    margin-top: -65px;
+    width: 30px;
+    height: 30px;
+    overflow:hidden;
+} */
+
+#particles-js {
+    background: url("../img/background.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

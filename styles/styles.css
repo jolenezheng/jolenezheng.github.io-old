@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Poppins&display=swap');
+
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     letter-spacing: 2px;
     font-weight: 100;
-    color: rgb(78, 89, 128);
+    color: rgb(26, 28, 36);
 }
 
 a {
@@ -12,176 +14,121 @@ a {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color: rgb(152, 123, 161);
-    text-align: center;
-    letter-spacing: 4px;
-    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 160px;
+    color: rgb(255, 255, 255);
+    margin: 0;
 }
 
-.name-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: rgb(78, 89, 128);
-    letter-spacing: 1px;
-    margin-top: 10px;
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    margin: 0;
 }
 
-.about-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    font-size: 30px;
-    color: rgb(78, 89, 128);
-    letter-spacing: 1px;
-    text-align: left;
-    margin-top: 10px;
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin: 0;
 }
 
-.about-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    font-size: 30px;
-    color: rgb(78, 89, 128);
-    letter-spacing: 1px;
-    text-align: left;
-    margin-top: 10px;
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0;
 }
 
-.title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    color: rgb(78, 89, 128);
-    letter-spacing: 5px;
-}
-
-.home-block {
-    width: 360px;
-    height: 450px;
-    margin-left: -180px;
-    margin-top: -225px;
-}
-
-.about-block {
-    width: 760px;
-    height: 450px;
-    margin-left: -425px;
-    margin-top: -255px;
-    padding: 50px;
-}
-
-.block {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.911);
-}
-
-.right-link {
-    position: relative;
-    text-align: right;
-    margin-left: 548px;
-}
-
-#about-link {
-    position: absolute;
-    text-align: center;
-    margin-top: 20px;
-    margin-left: 145px;
-}
-
-.navi-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    color: rgb(13, 38, 75);
-    letter-spacing: 5px;
-    font-size: 12px;
-}
-
-.profile-picture {
-    background: url(../img/profile.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    margin-left: 102px;
-    margin-top: 50px;
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    overflow:hidden;
-}
-
-.main-name {
-    position: relative;
-    text-align: center;
-    font-size: 28px;
-}
-
-.position {
-    /* margin-left: -98px; */
-    margin-top: 30px;
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
     font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.intro-container {
+    position: relative;
+    top: 23%;
+    margin: 3%;
+    /* left: 3%; */
+}
+
+.navi-container{
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    float: right;
+    text-align: right;
+}
+
+.navi-node {
+    background-color: rgba(0, 0, 0, 0.068);
+    text-align: center;
+    margin-top: 15%;
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+}
+
+.about-container {
+    position: relative;
+    margin: 3%;
+    top: 10px;
+    overflow: auto;
+}
+
+.projects-container {
+    margin: 3%;
+    position: relative;
+    text-align: center;
+}
+
+.contact-container {
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    float: right;
+    text-align: right;
+    width: 10%;
+}
+
+.project-block {
+    background-color: rgba(0, 0, 0, 0.24);
+    text-align: left;
+    margin-top: 15%;
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    width: 20%;
 }
 
 .center {
-    position: relative;
-    text-align: center;
-    /* top: 50%; */
-    /* left: 50%; */
+    left: 50%;
 }
 
-.icons {
-    position: relative;
-    /* left: 50%; */
-    margin-top: 80px;
-    margin-left: 27px;
+.node-blocks {
+    margin: 20px;
 }
 
-img {
-    border-radius: 50
+#intro {
+    height: 100%;
 }
-
-.coming-soon {
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 50px;
+#about {
+    height: 100%;
+    margin-top: 60px;
 }
-
-#about-text {
-    margin-top: 50px;
+#projects {
+    height: 100%;
 }
-
-#linkedin-icon {
-    margin-left: 47px;
-    width: 30px;
-    height: 30px;
-    overflow: hidden;
-}
-
-#github-icon {
-    margin-left: 25px;
-    margin-top: -50px;
-    width:30px;
-    height:30px;
-    overflow:hidden;
-}
-
-#resume-icon {
-    margin-left: 25px;
-    margin-top: -65px;
-    width: 30px;
-    height: 30px;
-    overflow:hidden;
-}
-
-#email-icon {
-    margin-left: 30px;
-    margin-top: -65px;
-    width: 30px;
-    height: 30px;
-    overflow:hidden;
+#contact {
+    height: 100%;
 }
 
 #particles-js {

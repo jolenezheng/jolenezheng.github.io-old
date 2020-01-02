@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Poppins&display=swap');
 
+body {
+    background: url("../img/background.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -60,12 +67,16 @@ h5 {
     /* left: 3%; */
 }
 
-.navi-container{
+.navi-container {
     position: fixed;
-    top: 10px;
+    top: 0px;
     right: 0px;
     float: right;
     text-align: right;
+}
+
+.content {
+    /* margin-top: 77px; */
 }
 
 .navi-node {
@@ -78,21 +89,22 @@ h5 {
 }
 
 .about-container {
-    position: relative;
+    /* position: relative; */
     margin: 3%;
-    top: 10px;
-    overflow: auto;
+    margin-top: 77px;
+    /* overflow: auto; */
 }
 
 .projects-container {
     margin: 3%;
-    position: relative;
+    margin-top: 77px;
+    /* position: relative; */
     text-align: center;
 }
 
 .contact-container {
-    position: fixed;
-    top: 10px;
+    /* position: fixed; */
+    top: 77px;
     right: 0px;
     float: right;
     text-align: right;
@@ -109,6 +121,21 @@ h5 {
     width: 20%;
 }
 
+.icon-container {
+    position: fixed;
+    top: 89%;
+    right: 0px;
+    float: right;
+    margin: 10px;
+    /* text-align: right; */
+}
+
+.icon {
+    margin-top: 15%;
+    display: inline-block;
+    padding: 5px;
+}
+
 .center {
     left: 50%;
 }
@@ -119,16 +146,19 @@ h5 {
 
 #intro {
     height: 100%;
+    top: 77px;
 }
 #about {
     height: 100%;
-    margin-top: 60px;
+    top: 77px;
 }
 #projects {
     height: 100%;
+    margin-top: 77px;
 }
 #contact {
     height: 100%;
+    margin-top: 77px;
 }
 
 #particles-js {

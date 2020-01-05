@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="styles/styles.css" type="text/css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- <link rel="stylesheet" href="path/to/font-mfizz/font-mfizz.css"> -->
     <script type="text/javascript" src="particles.js"></script>
     <script type="text/javascript" src="app.js"></script>
     <!-- <script type="text/javascript" src="script.js"></script> -->
@@ -10,7 +11,6 @@
 </head>
 
 <body>
-    <!-- <header> -->
     <div class="header-container">
         <div class="icon-container">
             <div class="icon">
@@ -92,43 +92,151 @@
                 <h4 class="header-transparent">Skills</h4>
                 <div id="languages-container">
                     <h6 style="font-style: italic;">Languages</h6>
-                    <div class="skill-block">
-                        <i class="fas fa-java fa-2x" style="color: white; opacity: 0.8;"></i>
-                        Java
-                    </div>
-                    <div class="skill-block">
-                        <i class="fas fa-copyright fa-2x" style="color: white; opacity: 0.8;"></i>
-                        C/C++
-                    </div>
-                    <div class="skill-block">
-                        <i class="fab fa-js-square fa-2x" style="color: white; opacity: 0.8;"></i>
-                        JavaScript/TypeScript
-                    </div>
-                    <div class="skill-block">
-                        <i class="fab fa-html5 fa-2x" style="color: white; opacity: 0.8;"></i>
-                        HTML
-                    </div>
-                    <div class="skill-block">
-                        <i class="fab fa-css3-alt fa-2x" style="color: white; opacity: 0.8;"></i>
-                        CSS
-                    </div>
+                    <table>
+                        <tr style="height:30px;">
+                            <td class="skill-icon">
+                                <!-- <i class="fab fa-java fa-2x" style="color: white; opacity: 0.8;"></i> -->
+                                <i class="icon-java"></i>
+                                <i class="icon-cplusplus"></i>
+                            </td>
+                            <td>
+                                Java
+                            </td>
+                            <td>
+                                <progress max="100" value="72"></progress>
+                            </td>
+                        </tr>
+                        <tr style="height:30px;">
+                            <td>
+                                <i class="fas fa-copyright fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                C/C++
+                            </td>
+                            <td>
+                                <progress max="100" value="62"></progress>
+                            </td>
+                        </tr>
+                        <tr style="height:30px;">
+                            <td>
+                                <i class="fab fa-js-square fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                JavaScript/TypeScript
+                            </td>
+                            <td>
+                                <progress max="100" value="78"></progress>
+                            </td>
+                        </tr>
+                        <tr style="height:30px;">
+                            <td>
+                                <i class="fab fa-html5 fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                HTML
+                            </td>
+                            <td>
+                                <progress max="100" value="83"></progress>
+                            </td>
+                        </tr>
+                        <tr style="height:30px;">
+                            <td>
+                                <i class="fab fa-css3-alt fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                CSS
+                            </td>
+                            <td>
+                                <progress max="100" value="94"></progress>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
                 <div id="tools-container">
                     <h6 style="font-style: italic;">Tools/Frameworks</h6>
+                    <table>
+                        <tr style="height:30px;">
+                            <td class="skill-icon">
+                                <i class="fas fa-dollar-sign fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                Bash
+                            </td>
+                            <td>
+                                <progress max="100" value="72"></progress>
+                            </td>
+                        </tr>
+                        <tr style="height:30px;">
+                            <td>
+                                <i class="fab fa-js-square fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                Node.js
+                            </td>
+                            <td>
+                                <progress max="100" value="62"></progress>
+                            </td>
+                        </tr>
+                        <tr style="height:30px;">
+                            <td>
+                                <i class="fas fa-cogs fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                Express
+                            </td>
+                            <td>
+                                <progress max="100" value="78"></progress>
+                            </td>
+                        </tr>
+                        <tr style="height:30px;">
+                            <td>
+                                <i class="fas fa-database fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                MongoDB
+                            </td>
+                            <td>
+                                <progress max="100" value="78"></progress>
+                            </td>
+                        </tr>
+                        <tr style="height:30px;">
+                            <td>
+                                <i class="fas fa-code-branch fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                Git
+                            </td>
+                            <td>
+                                <progress max="100" value="83"></progress>
+                            </td>
+                        </tr>
+                        <tr style="height:30px;">
+                            <td>
+                                <i class="fas fa-cloud-upload-alt fa-2x" style="color: white; opacity: 0.8;"></i>
+                            </td>
+                            <td>
+                                Heroku
+                            </td>
+                            <td>
+                                <progress max="100" value="94"></progress>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </section>
         <section id="projects">
             <div class="projects-container">
                 <h4 class="header-transparent">Projects</h4>
-                <table style="width:100%">
+                <table id="project-table" style="width:100%" cellspacing=15>
                     <tr>
                         <td class="shrink" id="quickchess">
                             <div class="project-block">
                                 <h4>QuickChess</h4>
                                 <h7 style="color: rgb(199, 207, 214);">Java, SQL</h7>
-                                <h6>5x6 Chess game allowing users to play against a custom built chess bot with alpha-beta
-                                pruning</h6 style="color: black;">
+                                <h6>5x6 Chess game allowing users to play against a custom built chess bot with
+                                    alpha-beta
+                                    pruning</h6 style="color: black;">
                             </div>
                         </td>
                         <td class="shrink" id="fact-checker">
@@ -137,83 +245,57 @@
                             <h6>Web application aimed to combat fake news; extracts a video’s subtitles to identify its
                                 key topics, and fetches relevant articles to fact check against</h6>
                         </td>
-                        <td class="shrink">
+                        <td class="shrink" id="cactus-climber">
                             <h4>Cactus Climber</h4>
                             <h7>Java</h7>
                             <h6>Doodle Jump variation where users fight off the effects of a custom built gravity-model
-                                by jumping on platforms while dodging moving items using the keyboard, with the option of customizing their level</h6>
+                                by jumping on platforms while dodging moving items using the keyboard, with the option
+                                of customizing their level</h6>
                         </td>
                     </tr>
                     <tr>
                         <td class="shrink">
-                            <h4>Repair Shop</h4>
-                            <h7>C++</h7>
-                            <h6></h6>
+                            <h4>Weather Application</h4>
+                            <h7>JavaScript, HTML, CSS, Node.js, Express, Dark Sky API</h7>
+                            <h6>Web application that converts a user-entered location to a geolocation, which fetches
+                                that location's current weather data</h6>
                         </td>
                         <td class="shrink">
                             <h4>Automated Emailing System</h4>
                             <h7>TypeScript, Node.js, SendGrid API, HTML, CSS</h7>
-                            <h6></h6>
+                            <h6>Developed an automated emailing system from scratch to
+                                respond to potential clients</h6>
                         </td>
                         <td class="shrink" id="block-game">
-                            <h4 style="color:rgb(73, 73, 73)">Move the Grey Block Out</h4>
+                            <h4 style="color:rgb(96, 103, 114)">Move the Grey Block Out</h4>
                             <h7>Java</h7>
-                            <h6></h6>
+                            <h6 style="color:rgb(96, 103, 114)">Logic game where players maneuver blocks to slide a grey block out the grid (variation of Move the Red Block Out)
+                                Individually developed game logic including piece movement, tracking high score, detecting illegal moves, and set up project's structure</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="shrink">
+                            <h4>Graphing Tool</h4>
+                            <h7>TypeScript, HTML, CSS</h7>
+                            <h6>Webpage helping users calculate their monthly savings and financial goals, illustrated
+                                with a graphing tool that dynamic animates any change using sliders</h6>
+                        </td>
+                        <td class="shrink">
+                            <h4>Personal Website</h4>
+                            <h7>Vanilla JS, HTML, CSS</h7>
+                            <h6>Personal website (this site) made from scratch</h6>
+                        </td>
+                        <td class="shrink">
+                            <h4>Repair Shop</h4>
+                            <h7>C++</h7>
+                            <h6>Creates an optimized schedule for a car repair shop, given inputs on tasks needed to be
+                                completed, number of mechanics avaiable per each task, price, customer availability, and
+                                repair rooms/tools currently avaiable</h6>
                         </td>
                     </tr>
                 </table>
-                <!-- <div class="project-row">
-                    <div id="quickchess" class="project-block">
-                        <h4>QuickChess</h4>
-                        <p>This project was created with Java, when I was learning object-oriented programming</p>
-                    </div>
-                    <div id="cactusclimber" class="project-block">
-                        <h4>Cactus Climber</h4>
-                        <p>Doodle Jump variation where users fight off the effects of a custom built gravity-model
-                            by jumping on platforms while dodging moving items using the keyboard</p>
-                    </div>
-                    <div id="moveblock" class="project-block">
-                        <h4>Move the Grey Block Out</h4>
-                        <p>This project was created with Java, when I was learning object-oriented programming</p>
-                    </div>
-                </div>
-                <div class="project-row">
-                    <div id="repairshop" class="project-block">
-                        <h4>Repair Shop</h4>
-                        <p>This project was created with Java, when I was learning object-oriented programming</p>
-                    </div>
-                    <div id="factchecker" class="project-block">
-                        <h4>Fact Checker</h4>
-                        <p>Web application aimed to combat fake news; extracts a video’s subtitles to identify its
-                            key topics, and fetches relevant articles to fact check against</p>
-                    </div>
-                </div> -->
             </div>
         </section>
-        <!-- <section id="contact">
-            <div class="icon-container">
-                <div class="icon">
-                    <a href="https://www.linkedin.com/in/jolenezheng/" target="_blank">
-                        <i class="fab fa-linkedin-in fa-2x" style="color: white; opacity: 0.8;"></i>
-                    </a>
-                </div>
-                <div class="icon">
-                    <a href="https://github.com/jolenezheng" target="_blank">
-                        <i class="fab fa-github fa-2x" style="color: white; opacity: 0.8;"></i>
-                    </a>
-                </div>
-                <div class="icon">
-                    <a href="img/resume.pdf" target="_blank">
-                        <i class="far fa-file-pdf fa-2x" style="color: white; opacity: 0.8;"></i>
-                    </a>
-                </div>
-                <div class="icon">
-                    <a href="mailto: jolenezheng18@gmail.com" target="_blank">
-                        <i class="fas fa-at fa-2x" style="color: white; opacity: 0.8;"></i>
-                    </a>
-                </div>
-            </div>
-        </section> -->
     </div>
     <script src="typed.js"></script>
     <script>

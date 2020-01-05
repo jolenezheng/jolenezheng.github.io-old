@@ -108,24 +108,17 @@ h7 {
 }
 
 .navi-node {
-    /* background-color: rgba(0, 0, 0, 0.068); */
     text-align: center;
     margin-top: 15%;
     display: inline-block;
     margin: 20px;
     padding: 5px;
 }
-/* 
-.content {
-    position: relative;
-    top: 77px;
-} */
 
 .intro-container {
     position: relative;
     top: 20%;
     margin: 3%;
-    /* left: 3%; */
 }
 
 .about-container {
@@ -135,31 +128,37 @@ h7 {
 
 .skills-container {
     position: relative;
+    display: inline-block;
     margin: 3%;
 }
 
-/* .skill-block {
-    width: 200px;
-    height: 60px;
-} */
-
 #languages-container {
-    display: inline-block;
-    width: 50%;
-    height: 300px;
+    /* display: inline-block; */
+    /* width: 600px; */
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+    /* height: 300px; */
 }
 
 #tools-container {
-    display: inline-block;
-    width: 50%;
-    height: 300px;
+    /* display: inline-block; */
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    /* height: 300px; */
+}
+
+progress {
+    background-color: rgb(64, 72, 87);
+    width: 200px;
+    height: 20px;
 }
 
 .projects-container {
     margin: 3%;
     margin-top: 77px;
     position: relative;
-    /* text-align: center; */
 }
 
 .project-block {
@@ -167,7 +166,6 @@ h7 {
 }
 
 .contact-container {
-    /* position: fixed; */
     top: 77px;
     right: 0px;
     float: right;
@@ -190,6 +188,10 @@ td {
     margin: 20px;
     padding: 5px;
     width: 30%;
+}
+
+project-table {
+    border-spacing: 10px;
 }
 
 .grow:hover {
@@ -231,7 +233,7 @@ td {
     top: 77px;
 }
 #skills{
-    height: 35%;
+    height: 45%;
     top: 77px;
 }
 #projects {
@@ -250,15 +252,24 @@ td {
     background: url("../img/fact-checker.png");
     background-color: rgba(34, 34, 34, 0.411);
     opacity: 0.9;
-    background-size: 100% 110%;
+    background-size: 100% 90%;
     background-position: left bottom;
+}
+
+#cactus-climber {
+    background: url("../img/cactus-climber.png");
+    background-color: rgba(34, 34, 34, 0.411);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: 105% 100%;
+    background-position: left;
 }
 
 #block-game {
     background: url("../img/greyblock.png");
     background-color: rgba(34, 34, 34, 0.411);
     opacity: 0.9;
-    background-size: 100% 110%;
+    background-size: 100% 100%;
     background-position: middle;
 }
 /* #particles-js {

@@ -11,57 +11,70 @@
 
 <body>
     <!-- <header> -->
-    <div class="navi-container">
-        <a href="#about">
-            <div class="navi-node">
-                <h5>About</h5>
+    <div class="header-container">
+        <div class="icon-container">
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/jolenezheng/" target="_blank">
+                    <i class="fab fa-linkedin-in fa-2x" style="color: white; opacity: 0.8;"></i>
+                </a>
             </div>
-        </a>
-        <div class="navi-node">
-            <h5>Skills</h5>
+            <div class="icon">
+                <a href="https://github.com/jolenezheng" target="_blank">
+                    <i class="fab fa-github fa-2x" style="color: white; opacity: 0.8;"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="img/resume.pdf" target="_blank">
+                    <i class="far fa-file-pdf fa-2x" style="color: white; opacity: 0.8;"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="mailto: jolenezheng18@gmail.com" target="_blank">
+                    <i class="fas fa-at fa-2x" style="color: white; opacity: 0.8;"></i>
+                </a>
+            </div>
         </div>
-        <a href="#projects">
-            <div class="navi-node">
-                <h5>Projects</h5>
-            </div>
-        </a>
-        <a href="#contact">
-            <div class="navi-node">
-                <h5>Contact</h5>
-            </div>
-        </a>
+        <div class="navi-container">
+            <a href="#intro">
+                <div class="navi-node">
+                    <h5 class="grow">Home</h5>
+                </div>
+            </a>
+            <a href="#about">
+                <div class="navi-node">
+                    <h5 class="grow">About</h5>
+                </div>
+            </a>
+            <a href="#skills">
+                <div class="navi-node">
+                    <h5 class="grow">Skills</h5>
+                </div>
+            </a>
+            <a href="#projects">
+                <div class="navi-node">
+                    <h5 class="grow">Projects</h5>
+                </div>
+            </a>
+        </div>
     </div>
     <div class="content">
         <section id="intro">
             <div class="intro-container">
-                <h3>Hi, I'm</h3>
+                <h2>Hi, I'm</h2>
                 <h1>Jolene,</h1>
-                <h2>a <span class="type"></span></h3>
+                <h3>a <span class="type"></span></h3>
             </div>
-            <!-- <div class="contact-container">
-            <a href="https://www.linkedin.com/in/jolenezheng/" target="_blank">
-                <img src="img/linkedin.png" id="linkedin-icon">
-            </a>
-            <a href="https://github.com/jolenezheng" target="_blank">
-                <img src="img/github.png" id="github-icon">
-            </a>
-            <a href="img/resume.pdf" target="_blank">
-                <img src="img/resume.png" id="resume-icon">
-            </a>
-            <a href="mailto: jolenezheng18@gmail.com" target="_blank">
-                <img src="img/email.png" id="email-icon">
-            </a>
-        </div> -->
         </section>
         <section id="about">
             <div class="about-container" id="about-text">
+                <h4 class="header-transparent">About</h4>
                 <p>Welcome to my website!</p>
                 <p>I'm a 2nd year Computer Science student at the University of Waterloo.</p>
                 <p>I decided to enter this program, because I am fascinated by how any idea can be turned to
                     reality through typing words on a screen. As someone who is flooded by ideas daily, I believe this
-                    program would be the perfect bridge to help create my ideas. While I upload some projects onto my website, please check my <a
-                        href="https://github.com/jolenezheng" target="_blank">github</a> or my <a
-                        href="projects.html">projects page</a> for some of the projects I have made in the past!</p>
+                    program would be the perfect bridge to help create my ideas. While I upload some projects onto my
+                    website, please check my <a href="https://github.com/jolenezheng" target="_blank">github</a> or my
+                    <a href="projects.html">projects page</a> for some of the projects I have made in the past!</p>
                 <p>Beyond programming, I love playing sports. I'm currently on Waterloo's Varisty Ultimate Frisbee team,
                     and have played basketball, volleyball, soccer and dragonboat in the past. When I'm not playing
                     sports, your can catch me hiking, camping, road tripping around North America, listening to music,
@@ -74,33 +87,110 @@
                         href="mailto: jolenezheng18@gmail.com" target="_blank">email</a> to talk :)</p><br>
             </div>
         </section>
-        <section id="projects">
-            <!-- <div class="projects-container">
-                <div id="quickchess" class="project-block">
-                    <h4>QuickChess</h4>
-                    <p>This project was created with Java, when I was learning object-oriented programming</p>
+        <section id="skills">
+            <div class="skills-container">
+                <h4 class="header-transparent">Skills</h4>
+                <div id="languages-container">
+                    <h6 style="font-style: italic;">Languages</h6>
+                    <div class="skill-block">
+                        <i class="fas fa-java fa-2x" style="color: white; opacity: 0.8;"></i>
+                        Java
+                    </div>
+                    <div class="skill-block">
+                        <i class="fas fa-copyright fa-2x" style="color: white; opacity: 0.8;"></i>
+                        C/C++
+                    </div>
+                    <div class="skill-block">
+                        <i class="fab fa-js-square fa-2x" style="color: white; opacity: 0.8;"></i>
+                        JavaScript/TypeScript
+                    </div>
+                    <div class="skill-block">
+                        <i class="fab fa-html5 fa-2x" style="color: white; opacity: 0.8;"></i>
+                        HTML
+                    </div>
+                    <div class="skill-block">
+                        <i class="fab fa-css3-alt fa-2x" style="color: white; opacity: 0.8;"></i>
+                        CSS
+                    </div>
                 </div>
-                <div id="cactusclimber" class="project-block">
-                    <h4>Cactus Climber</h4>
-                    <p>Doodle Jump variation where users fight off the effects of a custom built gravity-model
-                        by jumping on platforms while dodging moving items using the keyboard</p>
+                <div id="tools-container">
+                    <h6 style="font-style: italic;">Tools/Frameworks</h6>
                 </div>
-                <div id="moveblock" class="project-block">
-                    <h4>Move the Grey Block Out</h4>
-                    <p>This project was created with Java, when I was learning object-oriented programming</p>
-                </div>
-                <div id="repairshop" class="project-block">
-                    <h4>Repair Shop</h4>
-                    <p>This project was created with Java, when I was learning object-oriented programming</p>
-                </div>
-                <div id="factchecker" class="project-block">
-                    <h4>Fact Checker</h4>
-                    <p>Web application aimed to combat fake news; extracts a video’s subtitles to identify its
-                        key topics, and fetches relevant articles to fact check against</p>
-                </div>
-            </div> -->
+            </div>
         </section>
-        <section id="contact">
+        <section id="projects">
+            <div class="projects-container">
+                <h4 class="header-transparent">Projects</h4>
+                <table style="width:100%">
+                    <tr>
+                        <td class="shrink" id="quickchess">
+                            <div class="project-block">
+                                <h4>QuickChess</h4>
+                                <h7 style="color: rgb(199, 207, 214);">Java, SQL</h7>
+                                <h6>5x6 Chess game allowing users to play against a custom built chess bot with alpha-beta
+                                pruning</h6 style="color: black;">
+                            </div>
+                        </td>
+                        <td class="shrink" id="fact-checker">
+                            <h4>Fact Checker</h4>
+                            <h7>JavaScript, HTML, CSS, Node.js, Microsoft Azure, Algorand</h7>
+                            <h6>Web application aimed to combat fake news; extracts a video’s subtitles to identify its
+                                key topics, and fetches relevant articles to fact check against</h6>
+                        </td>
+                        <td class="shrink">
+                            <h4>Cactus Climber</h4>
+                            <h7>Java</h7>
+                            <h6>Doodle Jump variation where users fight off the effects of a custom built gravity-model
+                                by jumping on platforms while dodging moving items using the keyboard, with the option of customizing their level</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="shrink">
+                            <h4>Repair Shop</h4>
+                            <h7>C++</h7>
+                            <h6></h6>
+                        </td>
+                        <td class="shrink">
+                            <h4>Automated Emailing System</h4>
+                            <h7>TypeScript, Node.js, SendGrid API, HTML, CSS</h7>
+                            <h6></h6>
+                        </td>
+                        <td class="shrink" id="block-game">
+                            <h4 style="color:rgb(73, 73, 73)">Move the Grey Block Out</h4>
+                            <h7>Java</h7>
+                            <h6></h6>
+                        </td>
+                    </tr>
+                </table>
+                <!-- <div class="project-row">
+                    <div id="quickchess" class="project-block">
+                        <h4>QuickChess</h4>
+                        <p>This project was created with Java, when I was learning object-oriented programming</p>
+                    </div>
+                    <div id="cactusclimber" class="project-block">
+                        <h4>Cactus Climber</h4>
+                        <p>Doodle Jump variation where users fight off the effects of a custom built gravity-model
+                            by jumping on platforms while dodging moving items using the keyboard</p>
+                    </div>
+                    <div id="moveblock" class="project-block">
+                        <h4>Move the Grey Block Out</h4>
+                        <p>This project was created with Java, when I was learning object-oriented programming</p>
+                    </div>
+                </div>
+                <div class="project-row">
+                    <div id="repairshop" class="project-block">
+                        <h4>Repair Shop</h4>
+                        <p>This project was created with Java, when I was learning object-oriented programming</p>
+                    </div>
+                    <div id="factchecker" class="project-block">
+                        <h4>Fact Checker</h4>
+                        <p>Web application aimed to combat fake news; extracts a video’s subtitles to identify its
+                            key topics, and fetches relevant articles to fact check against</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- <section id="contact">
             <div class="icon-container">
                 <div class="icon">
                     <a href="https://www.linkedin.com/in/jolenezheng/" target="_blank">
@@ -123,7 +213,7 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
     <script src="typed.js"></script>
     <script>

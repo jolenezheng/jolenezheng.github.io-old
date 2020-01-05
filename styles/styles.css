@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Poppins&display=swap');
 
 body {
-    background: url("../img/background.jpeg");
+    /* background: url("../img/background.jpeg");
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    /* position: fixed; */
+    background: rgb(184, 187, 197);
+    background: linear-gradient(90deg, rgb(184, 187, 197,1) 0%, rgba(215,214,209,1) 56%, rgba(230,224,203,1) 100%);
     /* position: fixed; */
 }
 
@@ -12,12 +15,12 @@ p {
     font-size: 18px;
     letter-spacing: 2px;
     font-weight: 100;
-    color: rgb(26, 28, 36);
+    color: rgb(97, 100, 114);
 }
 
 a {
     text-decoration:none;
-    color: rgb(177, 165, 147);
+    color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -31,7 +34,7 @@ h1 {
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 68px;
     color: rgb(255, 255, 255);
     margin: 0;
 }
@@ -39,7 +42,7 @@ h2 {
 h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
     margin: 0;
 }
@@ -47,7 +50,7 @@ h3 {
 h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(255, 255, 255);
     margin: 0;
 }
@@ -60,46 +63,107 @@ h5 {
     margin: 0;
 }
 
-.intro-container {
-    position: relative;
-    top: 23%;
-    margin: 3%;
-    /* left: 3%; */
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.795);
+    margin: 0;
+}
+
+h7 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(72, 74, 80, 0.87);
+    margin: 0;
+}
+
+.header-transparent {
+    opacity: 0.5;
+}
+
+.header-container {
+    width: 100%;
+    height: 75px;    
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+    background: rgb(184, 187, 197);
+    background: linear-gradient(90deg, rgba(184, 187, 197,1) 0%, rgba(215,214,209,1) 56%, rgba(230,224,203,1) 100%);
+}
+
+.icon-container {
+    display: inline-block;
+    margin-left: 3%;
+    top: 0px;
 }
 
 .navi-container {
-    position: fixed;
-    top: 0px;
-    right: 0px;
+    margin-right: 3%;
     float: right;
     text-align: right;
-}
-
-.content {
-    /* margin-top: 77px; */
+    top: 0px;
 }
 
 .navi-node {
-    background-color: rgba(0, 0, 0, 0.068);
+    /* background-color: rgba(0, 0, 0, 0.068); */
     text-align: center;
     margin-top: 15%;
     display: inline-block;
     margin: 20px;
     padding: 5px;
 }
+/* 
+.content {
+    position: relative;
+    top: 77px;
+} */
+
+.intro-container {
+    position: relative;
+    top: 20%;
+    margin: 3%;
+    /* left: 3%; */
+}
 
 .about-container {
-    /* position: relative; */
+    position: relative;
     margin: 3%;
-    margin-top: 77px;
-    /* overflow: auto; */
+}
+
+.skills-container {
+    position: relative;
+    margin: 3%;
+}
+
+/* .skill-block {
+    width: 200px;
+    height: 60px;
+} */
+
+#languages-container {
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+}
+
+#tools-container {
+    display: inline-block;
+    width: 50%;
+    height: 300px;
 }
 
 .projects-container {
     margin: 3%;
     margin-top: 77px;
-    /* position: relative; */
-    text-align: center;
+    position: relative;
+    /* text-align: center; */
+}
+
+.project-block {
+    background-color: rgba(61, 61, 61, 0.678);
 }
 
 .contact-container {
@@ -111,23 +175,37 @@ h5 {
     width: 10%;
 }
 
-.project-block {
-    background-color: rgba(0, 0, 0, 0.24);
-    text-align: left;
-    margin-top: 15%;
-    display: inline-block;
-    margin: 20px;
-    padding: 5px;
-    width: 20%;
+.project-row {
+    position: relative;
 }
 
-.icon-container {
-    position: fixed;
-    top: 89%;
-    right: 0px;
-    float: right;
-    margin: 10px;
-    /* text-align: right; */
+tr {
+    height: 350;
+    padding: 5;
+    border-spacing: 50;
+}
+
+td {
+    background-color: rgba(162, 166, 179, 0.24);
+    margin: 20px;
+    padding: 5px;
+    width: 30%;
+}
+
+.grow:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
+
+.shrink:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.border:hover {
+        box-shadow: inset 0 0 0 25px  rgba(53, 58, 71, 0.5);
 }
 
 .icon {
@@ -149,20 +227,42 @@ h5 {
     top: 77px;
 }
 #about {
-    height: 100%;
+    height: 40%;
+    top: 77px;
+}
+#skills{
+    height: 35%;
     top: 77px;
 }
 #projects {
     height: 100%;
     margin-top: 77px;
 }
-#contact {
-    height: 100%;
-    margin-top: 77px;
+
+#quickchess {
+    background: url("../img/quickchess.png");
+    opacity: 0.9;
+    background-size: 100% 110%;
+    background-position: left bottom;
 }
 
-#particles-js {
+#fact-checker {
+    background: url("../img/fact-checker.png");
+    background-color: rgba(34, 34, 34, 0.411);
+    opacity: 0.9;
+    background-size: 100% 110%;
+    background-position: left bottom;
+}
+
+#block-game {
+    background: url("../img/greyblock.png");
+    background-color: rgba(34, 34, 34, 0.411);
+    opacity: 0.9;
+    background-size: 100% 110%;
+    background-position: middle;
+}
+/* #particles-js {
     background: url("../img/background.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-}
+} */

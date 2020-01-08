@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Poppins&display=swap');
 
 body {
-    /* background: url("../img/background.jpeg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat; */
-    /* position: fixed; */
     background: rgb(184, 187, 197);
-    background: linear-gradient(90deg, rgb(184, 187, 197,1) 0%, rgba(215,214,209,1) 56%, rgba(230,224,203,1) 100%);
-    /* position: fixed; */
+    background: linear-gradient(90deg, rgb(184, 187, 197, 1) 0%, rgba(215, 214, 209, 1) 50%, rgb(248, 233, 224) 100%);
 }
 
 p {
@@ -19,7 +14,7 @@ p {
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
@@ -86,12 +81,12 @@ h7 {
 
 .header-container {
     width: 100%;
-    height: 75px;    
+    height: 75px;
     top: 0px;
     position: fixed;
     z-index: 1;
     background: rgb(184, 187, 197);
-    background: linear-gradient(90deg, rgba(184, 187, 197,1) 0%, rgba(215,214,209,1) 56%, rgba(230,224,203,1) 100%);
+    background: linear-gradient(90deg, rgb(184, 187, 197, 1) 0%, rgba(215, 214, 209, 1) 50%, rgb(248, 233, 224) 100%);
 }
 
 .icon-container {
@@ -138,6 +133,7 @@ h7 {
     width: 40%;
     float: left;
     margin-right: 10px;
+    margin-top: 20px;
     /* height: 300px; */
 }
 
@@ -146,6 +142,7 @@ h7 {
     width: 40%;
     float: left;
     margin-left: 10px;
+    margin-top: 20px;
     /* height: 300px; */
 }
 
@@ -188,6 +185,9 @@ td {
     margin: 20px;
     padding: 5px;
     width: 30%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 project-table {
@@ -195,9 +195,9 @@ project-table {
 }
 
 .grow:hover {
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .shrink:hover {
@@ -207,7 +207,7 @@ project-table {
 }
 
 .border:hover {
-        box-shadow: inset 0 0 0 25px  rgba(53, 58, 71, 0.5);
+    box-shadow: inset 0 0 0 25px rgba(53, 58, 71, 0.5);
 }
 
 .icon {
@@ -228,16 +228,19 @@ project-table {
     height: 100%;
     top: 77px;
 }
+
 #about {
-    height: 40%;
+    height: 50%;
     top: 77px;
 }
-#skills{
-    height: 45%;
+
+#skills {
+    height: 50%;
     top: 77px;
 }
+
 #projects {
-    height: 100%;
+    height: 155%;
     margin-top: 77px;
 }
 
@@ -272,8 +275,94 @@ project-table {
     background-size: 100% 100%;
     background-position: middle;
 }
-/* #particles-js {
-    background: url("../img/background.jpeg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-} */
+
+#top-button {
+    /* position: relative; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    background-color: rgba(124, 135, 148, 0.582);
+    border: none;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    float: right;
+    margin-right: 3%;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}

@@ -251,6 +251,13 @@ project-table {
     background-position: left bottom;
 }
 
+#financial-forest {
+    background: url("../img/forest.png");
+    opacity: 0.9;
+    background-size: 100% 110%;
+    background-position: left bottom;
+}
+
 #fact-checker {
     background: url("../img/fact-checker.png");
     background-color: rgba(34, 34, 34, 0.411);
@@ -273,6 +280,21 @@ project-table {
     background-color: rgba(34, 34, 34, 0.411);
     opacity: 0.9;
     background-size: 100% 100%;
+    background-position: middle;
+}
+
+#graphing-tool {
+    background: url("../img/graphing.jpg");
+    background-color: rgba(34, 34, 34, 0.411);
+    opacity: 0.9;
+    background-size: 100% 120%;
+    background-position: middle;
+}
+#email-app {
+    background: url("../img/email-app.png");
+    background-color: rgba(34, 34, 34, 0.411);
+    opacity: 0.9;
+    background-size: 100% 120%;
     background-position: middle;
 }
 
